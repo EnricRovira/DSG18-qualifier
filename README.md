@@ -1,5 +1,5 @@
 # DSG18-qualifier
-R Project about my solution of DSG18-qualifier (TOP 10)
+R Project about my solution of DSG18-qualifier (TOP 10)--My best score is AUC=0.79090
 Link: https://www.kaggle.com/c/DSG2018-qualifiers
 
 Comments in Spanish. For more info or english comments just contact me or wait until I release the Notebook in English (I hope soon :D)
