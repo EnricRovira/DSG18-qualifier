@@ -8,3 +8,5 @@ The order in which the scripts are run:
 1. EDA_3 
 2. DataProcessing_3
 3. Algoritmo_3
+
+NOTE: This version is not definitive, it needs to be optimized in terms of resources and computational time required but it works well and its pretty understandable.
