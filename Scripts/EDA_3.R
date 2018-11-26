@@ -1,4 +1,4 @@
-setwd("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0")
+setwd("./Path/")
 
 library(data.table)
 library(sqldf)
@@ -7,11 +7,11 @@ library(anytime)
 library(tidyverse)
 library(dplyr)
 
-Challenge <- fread("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0/Data/Challenge_20180423.csv")
-Trade <- data.frame(fread("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0/Data/Trade.csv"))
-Trade_valido <- data.frame(fread("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0/Data/V3/Trade_valido.csv"))
-Trade_Generado <- data.frame(fread("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0/Data/V3/Train_Generado.csv"))
-testp <- data.frame(fread("C:/Users/Enric/Google Drive/Competiciones_MachineLearning/DSG_2018_2.0/Data/V3/test2.csv"))
+Challenge <- fread("~/Data/Challenge_20180423.csv")
+Trade <- data.frame(fread("~/Data/Trade.csv"))
+Trade_valido <- data.frame(fread("~/Data/V3/Trade_valido.csv"))
+Trade_Generado <- data.frame(fread("~/Data/V3/Train_Generado.csv"))
+testp <- data.frame(fread("~/Data/V3/test2.csv"))
 
 Trade$TradeStatus <- as.factor(Trade$TradeStatus)
 Trade$BuySell <- as.factor(Trade$BuySell)
